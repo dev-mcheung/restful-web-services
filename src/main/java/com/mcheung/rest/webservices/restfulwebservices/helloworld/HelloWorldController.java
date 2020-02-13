@@ -3,7 +3,7 @@ package com.mcheung.rest.webservices.restfulwebservices.helloworld;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true", allowedHeaders = "*")
 public class HelloWorldController {
     //GET
     //URI - /hello-world
